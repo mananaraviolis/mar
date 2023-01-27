@@ -1,0 +1,44 @@
+<svg width="200" height="110" viewBox="0 0 200 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="MAR SVG" clip-path="url(#clip0_216_11)">
+        <g id="GRUPO MAR">
+        <path id="mar" d="M140 30C122.535 30 100 10 100 10C84.4228 23.4148 72.2389 30.1349 60 30.1058C47.8465 30.077 35.6388 23.3928 20 10C12.6929 16.1381 6.13911 20.8642 0 24.1739V110.053L100 110L200 109.947V24.2195C193.864 20.9153 187.309 16.1804 180 10C180 10 157.465 30 140 30Z" fill="#3180C9" stroke="white"/>
+        <path id="ondab" d="M0 69C15.6388 82.3928 27.8466 89.077 40 89.1058C52.2389 89.1349 64.4228 82.4148 80 69C80 69 102.535 89 120 89C137.465 89 160 69 160 69C160 69 182.535 89 200 89" stroke="white"/>
+        <path id="ondac" d="M0 53.3746C7.02342 57.1827 13.5194 59.0904 20 59.1058C32.2389 59.1349 44.4228 52.4148 60 39C60 39 82.5352 59 100 59C117.465 59 140 39 140 39C140 39 162.535 59 180 59C186.439 59 193.566 56.2818 200 52.8495" stroke="white"/>
+        </g>
+        </g>
+        <defs>
+        <clipPath id="clip0_216_11">
+        <rect width="200" height="110" fill="white"/>
+        </clipPath>
+        </defs>
+        </svg>
+        
+         <style>
+        
+        #MARSVG{
+            transform:translateY(15%);
+        }
+        
+        #ondac {
+animation: onda 1s ease-in-out infinite alternate;
+
+}
+
+@keyframes onda{
+    from{
+        transform:translateY(0%)
+    }
+    to{
+        transform:translateY(2%)
+    }
+  
+}
+
+#ondab{
+    animation: onda 2s ease-in-out infinite alternate;
+}
+
+#mar{
+animation: onda 3s ease-in-out infinite alternate;
+}
+</style>
